@@ -4,12 +4,12 @@
 
 int cntr = 1;
 
-void setup() 
+void setup()
 {
   pinMode(LED_PIN, OUTPUT);
 }
 
-void loop() 
+void loop()
 {
   for (int i = 0; i < cntr; i++)
   {
@@ -23,6 +23,5 @@ void loop()
   {
     cntr = 1;
   }
-  digitalWrite(LED_PIN, HIGH);
   delay(1000);
 }
